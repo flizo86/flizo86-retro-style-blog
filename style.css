@@ -19,8 +19,11 @@ h3 {
 }
 
 hr {
-    border: 4px dashed #39ff14;
-    height: 20px;
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, #39ff14 16px, #00ffff); /* Gradient line for a retro-futuristic feel */
+    background-size: 22px 100%;
+    width: 100%;
     margin: 20px 0;
 }
 
