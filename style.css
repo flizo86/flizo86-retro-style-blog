@@ -1,12 +1,29 @@
+/* Update your main body block */
 body {
-    background-color: #0d1117; /* Dark charcoal retro background */
-    color: #39ff14; /* Matrix / Terminal neon green text */
-    font-family: 'Courier New', Courier, monospace; /* Clean monospace typing font */
-    padding: 40px;
-    line-height: 1.6;
+    background-color: #0d1117;
+    color: #39ff14;
+    font-family: 'Courier New', Courier, monospace;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 40px; /* REMOVE top/bottom padding (set to 0), keep 40px on left/right sides */
+    line-height: 1.6;
 }
+
+/* Clear the default browser spacing on the subtitle paragraph */
+p {
+    margin: 0; 
+    padding: 10px 0; /* Gives a tiny, controlled cushion around your text */
+}
+
+/* Ensure your H1 is perfectly clean */
+h1 {
+    color: #ffffff;
+    margin: 0;
+    padding-top: 30px;    /* Symmetrical cushion at the very top of the page */
+    padding-bottom: 10px;  /* Balanced cushion right before the first line */
+    text-align: center;
+}
+
 
 h1 {
     color: #ffffff; /* Make the main title crisp white */
